@@ -50,6 +50,8 @@ FROM online_sales
 WHERE order_date BETWEEN '2010-01-01' AND '2011-12-31'
 GROUP BY year, month
 ORDER BY year, month;
+
+
 🔄 SQLite Version (used in Colab)
 sql
 Copy
